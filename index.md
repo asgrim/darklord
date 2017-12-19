@@ -1,8 +1,17 @@
+---
+title: Home
+order: 1
+menu: main
+---
+
 # Darklord MUD Unofficial Info site
 
-Hey folks, thought I'd throw up a quick site trying to collate all the (sometimes useful) information we have about Darklord to help others.
+Hey folks, thought I'd throw up a quick site trying to collate all the (sometimes useful) information we have about
+Darklord to help others.
 
-## Information:
+## About Darklord
 
- * [Zones](zones.md) - list of zones with directions/basic information
- * [Items](items.md)
+Darklord is a MUD started by Mogwai and Foriz, a long time ago. In around 2004, the MUD went offline for several years.
+Now, Darklord is back!
+
+You can connect using either a basic telnet client, or preferably a dedicated MUD client to: {{ site.mudLink }}

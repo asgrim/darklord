@@ -1,3 +1,9 @@
+---
+title: Zones
+order: 2
+menu: main
+---
+
 | Zone | Author | Est. Levels | Directions |
 |------|--------|-------------|------------|
 | Limbo | DikuMud | Idle | .. |
