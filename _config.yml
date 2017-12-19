@@ -2,3 +2,8 @@ theme: jekyll-theme-cayman
 title: Darklord MUD
 description: Unofficial information site Darklord MUD
 mudLink: darklordmud.duckdns.org:5000
+markdown: kramdown
+permalink: pretty
+exclude:
+ - Gemfile
+ - Gemfile.lock
