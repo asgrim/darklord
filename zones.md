@@ -23,7 +23,7 @@ menu: main
 | Valley of War | Loretian, mortal of Darklord | Level 8+ | .. |
 | God Complex | CircleMUD, modified by Datalore of Darklord | .. | .. |
 | King Welmar's Castle | CircleMUD*| Fairly Easy 15+ | .. |
-| Land of the Goblin | Maynard of StrangeMUD | Very Easy 1+ | .. | .. |
+| Land of the Goblin | Maynard of StrangeMUD | Very Easy 1+ | .. |
 | The High Tower Of Magic | Skylar of SillyMUD* | Medium 20+ | .. |
 | The Three Of Swords | C.A.W. (Curious Area Workshop) | .. | .. |
 | Miden'Nir | Copper II, modified by VampLestat of MercMUD* | .. | .. |
@@ -37,7 +37,7 @@ menu: main
 | The Haon-Dor Forest | DikuMUD, modified by Derkhil of CircleMUD | .. | .. |
 | The Orc Enclave | C.A.W. | Hard 30+ | .. |
 | Rand's Tower | C.A.W. | .. | .. |
-| The Dwarven Kingdom | DikuMUD | .. | .. | .. |
+| The Dwarven Kingdom | DikuMUD | .. | .. |
 | The Sewers | DikuMUD | Easy 10+ | .. |
 | Arachnos | Mahatma of HexOynx | .. | .. |
 | River Island Of Minos | Mahatma of HexOynx | Medium 20+ | .. |
