@@ -65,7 +65,7 @@ menu: main
 | Forest of Khanjar | Methem of Alhazi Invasion, modified by TigerDude | .. |
 | Team Arena | Francis of Darklord | All Levels | .. |
 | Realm of the Mountain | Francis of Darklord | 25 ++ | .. |
-| Prehistoric Continent | Datalore of Darklord | Very Hard 35+ | .. |
+| Prehistoric Continent | Datalore of Darklord | Very Hard 35+ | n;w;w;w;n;n;n;w;w;w;w;w;w;w;w;w;w;w;w;w;s;w;w;s;s;w;s;w;w;w;n;w;n;n;n;e;e;n;n;n;n |
 | The Roman Empire | Datalore of Darklord | All levels 1-53 | n;w;w;w;s;s;s;s;s;u;s;u;s;d;s;d;s |
 | Wonderland | Datalore of Darklord | Hard 30/35+ | .. |
 | Middle-Earth | Datalore of Darklord | All levels 1-53 | .. |
