@@ -54,7 +54,7 @@ menu: main
 | The Lost City | Ben of Darklord | Fairly Hard 25+ | n;n;n;n;n;w;w;w;w;w;w;w;w;w;n;n;w;n;w;n;n;n;u;n;w;w;n |
 | Mynris Island | Mythran of Darklord | Medium 20+ | .. |
 | The Abyss | Azure of Darklord | Medium 20+ | .. |
-| Land of Mordor | Azure of Darklord | Medium 20+ | n;e;e;e;s;s;s;e;e;e;e;e;e;e;n;n;e;e;e;e;e;e;n;n;n;n;e;e;e;e;s;e;s;e;s;e;s;e;s;e;s;e;e;e;u;e;s;s;s;s;s;s;s; |
+| Land of Mordor | Azure of Darklord | Medium 20+ | n;e;e;e;s;s;s;e;e;e;e;e;e;e;n;n;e;e;e;e;e;e;n;n;n;n;e;e;e;e;s;e;s;e;s;e;s;e;s;e;s;e;e;e;u;e;s;s;s;s;s;s;s |
 | Land of the Ogre | TigerDude & Azure | Hard 30+ | .. |
 | Boot Camp + Newbie Zone | TigerDude of Darklord | Very Easy 1-15 | .. |
 | The Haunted House | TigerDude of Darklord | Medium 20+ | .. |
@@ -70,4 +70,4 @@ menu: main
 | Wonderland | Datalore of Darklord | Hard 30/35+ | .. |
 | Middle-Earth | Datalore of Darklord | All levels 1-53 | .. |
 | Magus's Lair :new: | Cyrus of Darklord | 40+ group oriented | .. |
-| Lloth's Peak | Sith of Darklord | 40+ | See FB post: https://www.facebook.com/groups/1971833113088195/1976306945974145/ |
+| Lloth's Peak | Sith of Darklord | 40+ | See [this FB post](https://www.facebook.com/groups/1971833113088195/1976306945974145/) |

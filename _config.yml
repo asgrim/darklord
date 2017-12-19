@@ -7,3 +7,5 @@ permalink: pretty
 exclude:
  - Gemfile
  - Gemfile.lock
+plugins:
+ - jemoji
