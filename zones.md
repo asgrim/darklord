@@ -46,7 +46,7 @@ menu: main
 | Lothlorien | MaDMaX, mortal of Darklord | Medium 25+ | .. |
 | The Rainbow to Heaven | Cain of Darklord | Very Hard 35+ | .. |
 | Land of Enroth | Azure of Darklord | Very Hard 35+ | .. |
-| Empire of Thyatis | Azure of Darklord | Fairly Hard 25+ | .. |
+| Empire of Thyatis | Azure of Darklord | Fairly Hard 25+ | n;n;n;n;n;w;w;w;open gate;w;w;w;w;w;w;w;w;w;w;w;w;w;n;n;w;w;w;open branches;n;n;n;n;e;e;n;n;n;n |
 | Ogre Den | Grif of Darklord | Hard 30+ | .. |
 | The Shadow Realms | Grif of Darklord | Very Hard 35+ | .. |
 | Dragon Sea | Grif of Darklord | Hard 30+ | .. |
