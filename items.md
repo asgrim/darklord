@@ -1,6 +1,6 @@
 ---
 title: Items
-order: 3
+order: 2
 menu: main
 ---
 

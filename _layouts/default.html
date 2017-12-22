@@ -18,7 +18,7 @@
 <nav class="menubar">
     <ul>
         {% assign pages = site.pages | sort:"order" %}
-        {% for node in site.pages %}
+        {% for node in pages %}
             {% if node.menu == 'main' %}
                 {% if page.url == node.url %}
                     <li class="active"><a href="{{ node.url | relative_url }}">{{ node.title }}</a></li>
