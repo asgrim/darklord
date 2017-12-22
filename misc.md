@@ -6,6 +6,45 @@ menu: main
 
 # Misc stuff
 
+## Skill levels
+
+Major levels
+
+* Horrible
+* Terrible
+* Awful
+* Bad
+* Not so bad
+* Poor
+* Fair
+* Somewhat good
+* Almost good
+* Good
+* Very good
+* Extremely good
+* Excellent
+* Awesome
+* Dangerous
+* Lethal
+* Expert
+* Masterly
+* Superior
+* Almost Godly
+* Godly
+
+Minor levels
+
+* Nothing
+* Close to nothing
+* Very little
+* Some
+* Almost half
+* Half
+* More than half
+* Alot
+* Very much
+* Almost all
+
 ## Levels of drunkenness
 
 In order:
