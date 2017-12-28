@@ -6,3 +6,4 @@ $app->get('/', \App\Action\IndexAction::class, 'index');
 $app->get('/items', \App\Action\ItemsAction::class, 'items');
 $app->get('/zones', \App\Action\ZonesAction::class, 'zones');
 $app->get('/misc', \App\Action\MiscAction::class, 'misc');
+$app->get('/item/{itemId}', \App\Action\ItemAction::class, 'item');

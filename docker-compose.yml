@@ -13,7 +13,7 @@ services:
   darklord-php-fpm:
     build: docker/php-fpm
     environment:
-      - DATABASE_URL=postgres://postgres:postgres@localhost/darklord
+      - DATABASE_URL=postgres://postgres:postgres@darklord-postgres/darklord
     volumes:
       - .:/app
     depends_on:
