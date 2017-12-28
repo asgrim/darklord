@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace AppTest\Action;
 
-use App\Action\IndexAction;
+use App\Action\ItemsAction;
 use AppTest\TestHelper;
 use PHPUnit\Framework\TestCase;
 use Zend\Diactoros\Response;
@@ -11,9 +11,9 @@ use Zend\Diactoros\ServerRequest;
 use Zend\Expressive\Template\TemplateRendererInterface;
 
 /**
- * @covers \App\Action\IndexAction
+ * @covers \App\Action\ItemsAction
  */
-final class IndexActionTest extends TestCase
+final class ItemsActionTest extends TestCase
 {
     /**
      * @var TemplateRendererInterface|\PHPUnit_Framework_MockObject_MockObject
@@ -21,7 +21,7 @@ final class IndexActionTest extends TestCase
     private $renderer;
 
     /**
-     * @var IndexAction
+     * @var ItemsAction
      */
     private $action;
 
@@ -29,13 +29,13 @@ final class IndexActionTest extends TestCase
     {
         $this->renderer = $this->createMock(TemplateRendererInterface::class);
 
-        $this->action = new IndexAction($this->renderer);
+        $this->action = new ItemsAction($this->renderer);
     }
 
     public function testActionRendersTemplate() : void
     {
         $content = uniqid('content', true);
-        $this->renderer->expects(self::once())->method('render')->with('app::index')->willReturn($content);
+        $this->renderer->expects(self::once())->method('render')->with('app::items')->willReturn($content);
 
         /** @var Response\JsonResponse $response */
         $response = $this->action->process(
