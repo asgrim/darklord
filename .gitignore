@@ -3,3 +3,4 @@ composer.phar
 clover.xml
 phpunit.xml
 vendor/
+.php_cs.cache

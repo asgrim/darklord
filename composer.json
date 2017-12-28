@@ -21,7 +21,8 @@
         "dasprid/container-interop-doctrine": "^1.0.0",
         "psr7-sessions/storageless": "dev-feature/psr-http-middleware",
         "http-interop/http-middleware": "^0.4.1",
-        "zendframework/zend-expressive-zendviewrenderer": "^1.4"
+        "zendframework/zend-expressive-zendviewrenderer": "^1.4",
+        "friendsofphp/php-cs-fixer": "^2.9"
     },
     "repositories": [
         {
