@@ -1,3 +1,12 @@
+<?php
+declare(strict_types=1);
+$pages = [
+    'Home' => 'index',
+    'Items' => 'items',
+    'Zones' => 'zones',
+    'Misc' => 'misc',
+];
+?>
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -16,8 +25,8 @@
 </section>
 <nav class="menubar">
     <ul>
-        <?php foreach (['Home', 'Items', 'Zones', 'Misc'] as $page): ?>
-            <li><a href="#"><?= $page; ?></a></li>
+        <?php foreach ($pages as $label => $route): ?>
+            <li><a href="<?= $this->url($route); ?>"><?= $label; ?></a></li>
         <?php endforeach; ?>
     </ul>
 </nav>

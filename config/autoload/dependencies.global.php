@@ -8,13 +8,13 @@ use Zend\Expressive\Helper;
 return [
     'dependencies' => [
         'invokables' => [
-            Zend\Expressive\Router\RouterInterface::class => Zend\Expressive\Router\FastRouteRouter::class,
             Helper\ServerUrlHelper::class => Helper\ServerUrlHelper::class,
         ],
         'factories' => [
+            Zend\Expressive\Router\RouterInterface::class => Zend\Expressive\Router\FastRouteRouterFactory::class,
             Application::class => ApplicationFactory::class,
+            Helper\ServerUrlHelper::class => Zend\ServiceManager\Factory\InvokableFactory::class,
             Helper\UrlHelper::class => Helper\UrlHelperFactory::class,
-
             Helper\ServerUrlMiddleware::class => Helper\ServerUrlMiddlewareFactory::class,
             Helper\UrlHelperMiddleware::class => Helper\UrlHelperMiddlewareFactory::class,
         ],
