@@ -1,7 +1,4 @@
----
----
-
-@import "{{ site.theme }}";
+@import "jekyll-theme-cayman/jekyll-theme-cayman";
 
 .main-content {
     max-width: none;
@@ -22,6 +19,14 @@
     h3 {
         margin-top: 0;
         margin-bottom: 0.1rem;
+    }
+}
+
+table {
+    tr {
+        td {
+            vertical-align: top;
+        }
     }
 }
 

@@ -1,0 +1,46 @@
+<?php
+declare(strict_types=1);
+$pages = [
+    'Home' => 'index',
+    'Items' => 'items',
+    'Zones' => 'zones',
+    'Misc' => 'misc',
+];
+?>
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <?= $this->headTitle('Darklord MUD')->setSeparator(' - '); ?>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<section class="page-header">
+    <h1 class="project-name">Darklord MUD</h1>
+    <h2 class="project-tagline">Unofficial information site Darklord MUD</h2>
+    <h3>Play now at: darklordmud.duckdns.org:5000</h3>
+</section>
+<nav class="menubar">
+    <ul>
+        <?php foreach ($pages as $label => $route): ?>
+            <li><a href="<?= $this->url($route); ?>"><?= $label; ?></a></li>
+        <?php endforeach; ?>
+    </ul>
+</nav>
+
+<section class="main-content">
+    <?php echo $this->content; ?>
+
+    <footer class="site-footer">
+        This site is open source!
+        You can help &amp; contribute on GitHub by reporting issues, submitting pull requests, please visit: <a href="https://github.com/asgrim/darklord">https://github.com/asgrim/darklord</a>.
+        This site is maintained by <a href="https://github.com/asgrim">asgrim</a> (in mud: Blista).
+    </footer>
+</section>
+
+</body>
+</html>
