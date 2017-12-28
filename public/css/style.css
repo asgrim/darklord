@@ -824,6 +824,9 @@ a {
     margin-top: 0;
     margin-bottom: 0.1rem; }
 
+table tr td {
+  vertical-align: top; }
+
 footer.site-footer {
   font-size: 0.8rem; }
 

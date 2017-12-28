@@ -9,7 +9,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response\HtmlResponse;
 use Zend\Expressive\Template\TemplateRendererInterface;
 
-final class IndexAction implements MiddlewareInterface
+final class MiscAction implements MiddlewareInterface
 {
     /**
      * @var TemplateRendererInterface
@@ -23,6 +23,6 @@ final class IndexAction implements MiddlewareInterface
 
     public function process(ServerRequestInterface $request, DelegateInterface $delegate) : HtmlResponse
     {
-        return new HtmlResponse($this->renderer->render('app::index'));
+        return new HtmlResponse($this->renderer->render('app::misc'));
     }
 }
