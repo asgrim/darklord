@@ -853,4 +853,12 @@ nav.menubar {
     nav.menubar ul li.active a {
       background-color: #fff; }
 
+.pull-left {
+  float: left; }
+  .pull-left.with-padding {
+    padding-right: 30px; }
+
+.clearfix {
+  clear: both; }
+
 /*# sourceMappingURL=style.css.map */
