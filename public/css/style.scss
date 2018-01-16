@@ -67,3 +67,13 @@ nav.menubar {
         }
     }
 }
+
+.pull-left {
+    float: left;
+    &.with-padding {
+        padding-right: 30px;
+    }
+}
+.clearfix {
+    clear: both;
+}
