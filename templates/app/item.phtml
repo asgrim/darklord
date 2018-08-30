@@ -1,0 +1,6 @@
+<?php
+declare(strict_types=1);
+$this->headTitle('Darklord MUD');
+/** @var \App\Entity\Item $item */
+?>
+<h2 title="<?= $this->escapeHtmlAttr((string)$item->id()); ?>">Item: <?= $this->escapeHtml($item->name()); ?></h2>

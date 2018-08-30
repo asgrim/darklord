@@ -25,7 +25,7 @@ final class IndexActionTest extends TestCase
      */
     private $action;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->renderer = $this->createMock(TemplateRendererInterface::class);
 
