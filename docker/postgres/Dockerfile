@@ -1,2 +1,2 @@
-FROM postgres:9.6.3
+FROM postgres:13.4
 COPY initdb.d /docker-entrypoint-initdb.d
